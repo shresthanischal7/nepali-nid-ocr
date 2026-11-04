@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+paddle_env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# OCR outputs and temporary files
+*.log
+temp/
+tmp/
+
+images/
