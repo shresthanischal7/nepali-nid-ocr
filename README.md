@@ -145,9 +145,9 @@ The API processes the uploaded image and returns the extracted information as JS
 
 ```json
 {
-    "nin": "526-657-096-9",
-    "surname": "OJHA",
-    "given_name": "AMIT KUMAR",
+    "nin": "123-657-000-9",
+    "surname": "KUMAR",
+    "given_name": "AMIT ",
     "dob": "1997-06-27",
     "nationality": "NEPALI"
 }
