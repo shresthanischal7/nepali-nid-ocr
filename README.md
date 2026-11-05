@@ -145,11 +145,10 @@ The API processes the uploaded image and returns the extracted information as JS
 
 ```json
 {
-    "nin": "123-657-000-9",
-    "surname": "KUMAR",
-    "given_name": "AMIT ",
-    "dob": "1997-06-27",
-    "nationality": "NEPALI"
+  "nid": "123-456-789-0",
+  "full_name": "PRITHVI NARAYAN SHAH",
+  "dob": "1723-01-07",
+  "nationality": "Nepali"
 }
 ```
 
@@ -160,23 +159,12 @@ The API processes the uploaded image and returns the extracted information as JS
 - [x] Image loading
 - [x] Perspective correction
 - [x] PaddleOCR integration
-- [x] Tesseract integration
 - [x] English and Nepali text recognition
 - [x] Fuzzy matching for OCR labels
 - [x] Initial NID field extraction
 - [x] FastAPI endpoint implementation
-- [ ] Robust support for different NID layouts
-- [ ] Improved field validation
-- [ ] Automated testing
-- [ ] Extraction accuracy evaluation
-
-## Future Improvements
-
-- Improve extraction accuracy across different document layouts.
-- Implement stronger field-level validation.
-- Improve handling of low-quality and rotated images.
-- Add automated tests for OCR and extraction.
-- Optimize processing performance.
+- [x] Support for different NID layouts
+- [ ] Tesseract integration
 
 ## Disclaimer
 
