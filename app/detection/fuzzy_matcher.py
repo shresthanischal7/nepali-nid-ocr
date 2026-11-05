@@ -43,6 +43,8 @@ EXPECTED_LABELS = [
     "पुरुष",
 ]
 
+
+
 def correct_ocr_labels(text, threshold=80):
 
     lines = text.splitlines()
@@ -67,7 +69,5 @@ def correct_ocr_labels(text, threshold=80):
             )
         else:
             corrected_lines.append(line)
-
-    print("\n".join(corrected_lines))
     
     return "\n".join(corrected_lines)

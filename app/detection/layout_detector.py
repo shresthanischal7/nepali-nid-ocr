@@ -1,12 +1,12 @@
 import cv2
-
 def detect_layout(text):
-    
-    text = text.upper()
-    
-    if "SURNAME" in text and "GIVEN NAME" in text:
+
+    normalized_text = "".join(text.upper().split())
+
+    if "SURNAME" in normalized_text and "GIVENNAME" in normalized_text:
         return "new_format"
-    elif "FULL NAME"  or "CARD HOLDER'S SIGNATURE"in text:
+
+    elif "FULLNAME" in normalized_text:
         return "old_format"
-    else:
-        return "unknown_format detected!"
+
+    return "unknown_format"

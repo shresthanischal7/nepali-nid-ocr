@@ -4,7 +4,7 @@ from app.ocr.ocr_pipeline import OCRPipeline
 
 def main():
 
-    image_path = "images/sample8.jpeg"
+    image_path = "images/another.png"
 
     pipeline = OCRPipeline(image_path, engine="pdl")
 
