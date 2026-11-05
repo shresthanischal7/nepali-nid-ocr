@@ -166,6 +166,15 @@ The API processes the uploaded image and returns the extracted information as JS
 - [x] Support for different NID layouts
 - [ ] Tesseract integration
 
+## Screenshots
+
+### Sample
+![Sample Image](images/sample1.png)
+
+### New NID Format
+![Result](images/result1.png)
+
+
 ## Disclaimer
 
 This project is intended for educational and development purposes. OCR results may contain recognition errors and should be verified against the original document.
