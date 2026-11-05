@@ -169,7 +169,7 @@ The API processes the uploaded image and returns the extracted information as JS
 ## Screenshots
 
 ### Sample
-![Sample Image](images/sample1.png)
+![Sample Image](images/sample1.jpeg)
 
 ### New NID Format
 ![Result](images/result1.png)
